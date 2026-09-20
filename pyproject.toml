@@ -1,0 +1,17 @@
+[project]
+name = "local-ai-ollama-agent"
+version = "0.1.0"
+description = "LOcal AI agent with ollama."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic-ai>=2.46.0",
+    "pypdf>=5.0.0",
+    "rich>=15.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyrefly>=1.3.1",
+    "ruff>=0.16.8",
+]
